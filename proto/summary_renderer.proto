@@ -2,18 +2,18 @@ syntax = "proto3";
 
 /** A renderer that shows the summary of a blog post.*/
 message PzmBlogSummaryRenderer {
-    // Blog title.
+	// Blog title.
 	string title = 1;
 
 	// Name of the blog author
 	string author = 2;
-	
+
 	// Last modified time.
 	string last_update_time = 3;
-	
-    // Excerpt of the blog.
+
+ 	// Excerpt of the blog.
 	string excerpt = 4;
 
 	// The url of the picture in the blog, if any	
-    string picture_url = 5;
+ 	string picture_url = 5;
 }

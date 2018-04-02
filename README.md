@@ -1,2 +1,2 @@
 # pzmblog
-Personal blog
+pzm's personal blog
